@@ -1,0 +1,50 @@
+<simulation>
+    <app type="ControlApp" />
+    
+    <robot type="QuickBot">
+        <supervisor type="quickbot.QBSupervisor" />
+        <pose x="0" y="0" theta="0" />
+        <driver ip="192.168.1.212" port="4555" />
+        <optitrack ip="192.168.1.125" port="4560" id="12" />
+    </robot>
+    
+    <obstacle>
+        <pose x="-1.6" y="-1.5" theta="0" />
+        <geometry>
+            <point x="0" y="0" />
+            <point x="3" y="0" />
+            <point x="3" y="0.1" />
+            <point x="0" y="0.1" />
+        </geometry>
+    </obstacle>
+    
+    <obstacle>
+        <pose x="-1.5" y="-1.4" theta="1.5708" />
+        <geometry>
+            <point x="0" y="0" />
+            <point x="3" y="0" />
+            <point x="3" y="0.1" />
+            <point x="0" y="0.1" />
+        </geometry>
+    </obstacle>
+    
+        <obstacle>
+        <pose x="1.5" y="-1.5" theta="1.5708" />
+        <geometry>
+            <point x="0" y="0" />
+            <point x="3" y="0" />
+            <point x="3" y="0.1" />
+            <point x="0" y="0.1" />
+        </geometry>
+    </obstacle>
+    
+    <obstacle>
+        <pose x="-1.5" y="1.5" theta="0" />
+        <geometry>
+            <point x="0" y="0" />
+            <point x="3" y="0" />
+            <point x="3" y="0.1" />
+            <point x="0" y="0.1" />
+        </geometry>
+    </obstacle>
+</simulation>

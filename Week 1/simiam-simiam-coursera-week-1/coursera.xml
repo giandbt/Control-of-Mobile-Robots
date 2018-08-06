@@ -1,0 +1,9 @@
+<coversheet>
+    
+    <course identifier="conrob-002" week="1" />
+    
+    <assignment week="1">
+        <part identifier="k3pa0rK4" title="Running the simulator" test="week1.Part1Test" />
+    </assignment>
+    
+</coversheet>
