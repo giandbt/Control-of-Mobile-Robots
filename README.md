@@ -7,7 +7,9 @@ The goal of each week's project can be find under the "Week # Project." Note tha
 
 In order to run the code, you will need the following:
 -An active MATLAB license
--Have the GUI Layout Toolbox 2.3.2.mltbx installed in MATLAB
+
+-Have the GUI Layout Toolbox 2.3.2.mltbx installed in MATLAB\
+
 -Have the "simiam-simiam-coursera-week-#" folder downloaded it in your computer (redownload for each week).
 
 Once all the aforementioned requirements are set, to run the code simply open the "launch" code or type in the MATLAB commdan window. 
